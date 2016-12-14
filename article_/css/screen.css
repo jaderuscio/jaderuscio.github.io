@@ -1,0 +1,83 @@
+html {
+	font: 100%/1 avenir;
+}
+
+
+body {
+	width: 90%;  /* overall width */ 
+	max-width: 60em; /* max width */ 
+	margin: 0 auto; /* top/bottom right/left */
+}
+
+/* 1.5 */ 
+
+@media (min-width: 48em) {
+
+body {
+	font-size: 107.1428557142857%
+	}
+}
+
+/* 1.6 */ 
+
+@media (min-width: 60em) {
+
+body {
+	font-size: 114.28571428285714%
+	}
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin-top: 0 em;
+	margin-bottom: 0;
+	
+}
+
+/* typographic styles */ 
+
+/* paragraph / foundation */ 
+
+/* 
+
+1.4 measure 
+
+1/2: .7, 1.4
+
+1/4: .35, .7, 1.05, 1.4
+1/5: .28, .56, .84, 1.12, 1.4
+
+*/ 
+
+p {
+	font: normal 1em/1.4 "Avenir", sans-serif; 
+	margin: .84em 0;
+}
+
+/* headings / foundation */
+
+/* 2.8em + .7 = 3.5 / 2.8 = 1.25 */ 
+/* 2.8em + .56 = 3.36 / 2.8 = 1.2 */ 
+
+h1 {
+	font-size: 2.8em; 
+	line-height: 1.2; 
+	margin-top: .28em;
+	margin-bottom: .28em;
+}
+
+/* 1.68em + .28 = 1.96 / 1.68 = 1.16666666667 */ 
+
+h2 { 
+	font-size: 1.68em;
+	line-height: 1.167;
+	margin-top: .28em;
+	margin-bottom: .28em;
+}
+
